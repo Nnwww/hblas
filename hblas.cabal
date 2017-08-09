@@ -111,10 +111,10 @@ library
     Numerical.HBLAS.BLAS.FFI.Level3
     Numerical.HBLAS.MatrixTypes
     Numerical.HBLAS.UtilsFFI
-    --Numerical.HBLAS.BLAS.Level1
+    Numerical.HBLAS.BLAS.Level1
     Numerical.HBLAS.BLAS.Level2
     Numerical.HBLAS.BLAS.Level3
-    --Numerical.HBLAS.BLAS.Internal.Level1
+    Numerical.HBLAS.BLAS.Internal.Level1
     Numerical.HBLAS.BLAS.Internal.Level2
     Numerical.HBLAS.BLAS.Internal.Level3
     Numerical.HBLAS.BLAS.Internal.Utility
@@ -188,4 +188,3 @@ Test-suite unit-testsuite
        , primitive
    hs-source-dirs: tests
    main-is: Spec.hs
-
