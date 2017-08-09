@@ -1,4 +1,4 @@
-{-# LANGUAGE BangPatterns , RankNTypes, GADTs, DataKinds #-}
+{-# LANGUAGE BangPatterns, RankNTypes, GADTs, DataKinds #-}
 
 module Numerical.HBLAS.BLAS.Internal.Level3(
     GemmFun

@@ -1,4 +1,4 @@
-{-# LANGUAGE BangPatterns , RankNTypes, GADTs, DataKinds #-}
+{-# LANGUAGE BangPatterns, RankNTypes, GADTs, DataKinds #-}
 
 module Numerical.HBLAS.BLAS.Internal.Level1(
   AsumFun
@@ -343,4 +343,3 @@ iamaxAbstraction iamaxName iamaxSafeFFI iamaxUnsafeFFI = iamax
 --          do
 --            x <-unsafePrimToPrim $! (if shouldCallFast n then iaminUnsafeFFI else iaminSafeFFI) (fromIntegral n) xptr (fromIntegral xincx)
 --            return $ fromIntegral x
-

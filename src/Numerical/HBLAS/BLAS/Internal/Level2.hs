@@ -1,4 +1,4 @@
-{-# LANGUAGE BangPatterns , RankNTypes, GADTs, DataKinds #-}
+{-# LANGUAGE BangPatterns, RankNTypes, GADTs, DataKinds #-}
 
 module Numerical.HBLAS.BLAS.Internal.Level2(
   GbmvFun
@@ -825,4 +825,3 @@ trsvAbstraction trsvName trsvSafeFFI trsvUnsafeFFI = trsv
                           (encodeNiceOrder ornt) (encodeFFIMatrixHalf uplo) (encodeFFITranspose tra)
                           (encodeFFITriangleSort diag) (fromIntegral x) mp (fromIntegral mstride) vp
                           (fromIntegral vstride)
-
